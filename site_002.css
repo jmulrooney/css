@@ -1,0 +1,120 @@
+*  {
+	border: none;
+}
+BODY  {
+	padding: 0px;
+	margin: 0px;
+	font: 11pt Arial, Helvetica, san-serif;
+	color: #333;
+	background: #c0c0c0;
+}
+TD  {
+	vertical-align: top;
+	font: 11pt Arial, Helvetica, san-serif;
+}
+#wrapper  {
+	margin: 0px auto 0px;
+	width: 960px;
+	position: relative;
+	text-align: left;
+	background: #f9f1cf;
+}
+#navigation  {
+	position: absolute;
+	z-index: 2;
+	height: 27px;
+	top: 197px;
+}
+#header  {
+	width: 960px;
+	height: 223px;
+	background: no-repeat url("../images/header.jpg");
+}
+#pagecontent  {
+	padding: 15px;
+}
+#login  {
+	position: absolute;
+	z-index: 2;
+	width: 92px;
+	height: 22px;
+	left: 868px;
+	top: 5px;
+	cursor: pointer;
+}
+
+/***** Footer *****/
+#footer  {
+	padding: 3px;
+	background: #EBD8B1;
+}
+#footer TABLE TD  {
+	vertical-align: top;
+	font-size: 8pt;
+}
+
+.clearfloat  {
+	clear: both;
+}
+A  {
+	color: #996600;
+	text-decoration: none;
+}
+A:hover  {
+	color: #7d5a15;
+}
+STRONG  {
+	font-family: Arial Black, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+
+
+/***** Standard Article *****/
+#aOpt  {
+	font: 11pt Arial, Helvetica, san-serif;
+	color: #000;
+	line-height: 150%;
+	padding: 15px;
+}
+
+#aOpt.alternate  {
+	border: 1px solid #996633;
+	background-color: #EBD8B1;
+	margin: 15px;
+	padding: 10px;
+}
+
+#aOpt H1  {
+	margin: 0px;
+	margin-bottom: 8px;
+	font: 20pt Verdana, Helvetica, sans-serif;
+	color: #663300;
+}
+
+#aOpt #content  {
+}
+
+#aOpt #content  H1  {
+	padding-left: 0px;
+}
+
+#aOpt #content P  {
+	padding: 0px;
+	padding-bottom: 8px;
+}
+
+
+/***** Colors *****/
+.colorProcurement H1  {
+	color: #CC9900 !important;
+}
+.colorManufacturing H1  {
+	color: #800000 !important;
+}
+.colorFinancial H1  {
+	color: #996600 !important;
+}
+.colorOrder H1  {
+	color: #336600 !important;
+}

@@ -1,0 +1,54 @@
+
+#navigation {
+	cursor: default;
+}
+
+/* Style for menu button nodes */
+.tundra #navigation .dijitButtonNode {
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	font-family: Arial;
+	font-size: 9pt;
+	font-style: ;
+	text-decoration: none;
+	font-weight: ;
+	padding: 1px 1px 1px 1px;	
+}
+
+/* Highlighted style for menu button nodes */
+.tundra #navigation .dijitDropDownButtonHover .dijitButtonNode  {
+	background-color: #d2b07b;
+	border: 1px solid #663300;
+	color: #000000;
+}
+
+/* Hide drop-down arrows */
+.tundra #navigation .dijitButtonNode .dijitA11yDownArrow {
+	display: none;
+}
+
+.tundra .dijitMenuTable {
+	background-color: #d7b675;
+	border: 1px solid white;
+}
+
+.tundra .dijitMenuItem {
+	background-color: #d7b675;
+
+	font-family: Arial;
+	font-size: 9pt;
+	font-style: ;
+	text-decoration: none;
+	font-weight: ;
+}
+
+.tundra .dijitMenuItemHover {
+	background-color: #cca353;
+	color: #000000;
+}
+
+/* Remove this rule if you want to use menu item icons */
+.tundra .dijitMenuItemIcon {
+	width: 0px;
+}

@@ -1,0 +1,352 @@
+body, div, dl, dt, dd, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+ 	overflow: hidden;
+ 	height: 100%;
+ 	width: 100%;	
+}
+
+body form {
+ 	height: 100%;
+ 	width: 100%;	
+}
+	
+#container{
+	height: 100%;
+	width: 100%;
+	background: none;
+}
+
+#titlebar{
+	width: 100%;
+	height: 35px;
+	background: white url("../images/header-deco.gif") repeat-x 0% 0%;
+	border: 1px solid #99BBE8;
+}
+
+#titlebar h1{
+	text-align: center;
+	padding-top: 10px;
+	font-family: Helvetica;
+	color: #15428B;
+}
+
+#navigationbar{
+	height: 25px;
+	width: 100%;
+	background: #D0DEF0 url("../images/bg.gif");
+	border: 1px solid #A9BFD3;
+}
+#navigationbar DIV{
+	float: right;
+	padding-right: 5px;
+}
+
+#navigationbar SPAN{
+	padding-left: 2px;	
+	position: relative;
+}
+
+#footerbar{
+	height: 20px;
+	background: #D0DEF0 url("../images/bg.gif");
+	border: 1px solid #A9BFD3;
+}
+	
+#about{
+	height: 16px;
+	width: 16px;
+	margin-top: 4px;
+}
+
+#leftcontainer{
+	width: 250px;
+	border: 1px solid #99BBE8;
+	background: white;
+}
+
+#gridbottom{
+	height: 30px;	
+	background: #D0DEF0 url("../images/bg.gif");
+	border: 1px solid #A9BFD3;
+}
+
+#gridbottom BUTTON{
+	margin-top: -5px;	
+}
+
+#functiontitle{
+	height: 25px;
+	background: url("../images/white-top-bottom.gif") repeat-x;
+	font-weight: bold;
+	color: #15428B;
+	font-size: 11px;
+	font-family: tahoma, arial, verdana, sans-serif;
+}
+
+#functiontitle SPAN{
+	position: relative;
+	top: 6px;
+	left: 5px;
+}
+/*
+.titlearea{
+	height: 25px;
+	background: url("../images/white-top-bottom.gif") repeat-x;
+	font-weight: bold;
+	color: #15428B;
+	font-size: 11px;
+	font-family: tahoma, arial, verdana, sans-serif;
+	width: 250px;
+}
+
+.titlearea SPAN{
+	position: relative;
+	top: 6px;
+	left: 5px;
+}
+*/
+#split{
+	width: 5px;
+	background-color: #D0DEF0;
+	cursor: ew-resize;
+}
+#accContainer{
+	/*height: 100%;*/	
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.loadingSpinner{
+	width: 100%;
+	height: 100%;
+	background: transparent url("../images/busy.gif") no-repeat center;
+	position: absolute;
+	z-index: 10000;
+}
+
+.LoadShow .loadScreen{
+	display: none;
+}
+.tabcontainer{
+	width: 100%;
+	height: 100%;
+}
+
+.childcontainer{
+	height: 100%;
+	width: 100%;	
+}
+
+.childbottom{
+	height: 40px;	
+	background: #D0DEF0 url("../images/bg.gif");
+	border: 1px solid #A9BFD3;
+}
+
+.childtabs{
+	height: 375px;	
+}
+
+.claro .childbottom BUTTON{
+	margin-top: 3px;
+}
+
+.childtop{
+	height: auto;
+}
+
+#User, #Company, #Division, #StartDate, #StartTime, #statusmessagetext, #Version{
+	display: inline;	
+	background-color: transparent !important;
+	padding-right: 5px; 
+}
+
+.claro .dijitValidationIcon {
+	display: none;
+}
+
+body .dijitAlignTop{
+ overflow: auto;
+}
+
+.dijitTabContainer .dijitAlignTop{
+ top: 0px !important;
+ overflow: hidden;
+}
+
+.claro .dojoxGrid-header .dojoxGrid-cell{
+       text-align: center;  
+}
+.dijitPopup {
+	z-index:2000;
+}
+
+.editCell {
+	background-color: #cee6fa;
+}
+
+.upright {
+	text-orientation: upright;
+	writing-mode: vertical-rl;
+}
+
+/* RNK - Overflow tree labels vertically aligned */
+.dijitTreeLabel {
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+}
+
+/* RNK - Word-wrap column headers */
+th[role="columnheader"] span {
+	white-space: pre-wrap !important;
+}
+
+/* RNK - Word-wrap table cells */
+div[role="grid"][id$="_wrap" i] td[role="gridcell"] span {
+	white-space: pre-wrap !important;
+}
+
+/* EG - Solving issue Tab panel not fit in the ChildSite */
+#maincontent > .dijitContentPane{
+	overflow: hidden !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+
+#maincontent > .dijitContentPane > div{
+	height: 100% !important;
+	width: 100% !important;
+    overflow: auto !important;
+}
+
+
+/* EG - Solving issue with ComboBox in Grids that do not autozise to the column*/
+.dojoxGrid-scrollbox .dijitComboBox{
+	width: auto;
+    display: block;
+}
+/* EG - Solving show issue with multiple ChildSiteP Regions */
+#PARMENU1_ChildSiteP_NscTheMatrix_ChildSite2P_NscItemMatrixGrid {
+	display: block !important;
+}
+#PARMENU1_ChildSiteP_NscTheMatrix_ChildSiteP_NscTheMatrixItems{
+	display: block !important;
+}
+#PARMENU1_ChildSiteP_NSCPrdScdC010_ChildSiteP_NSCPrdScdC011{
+	display: block !important;
+}
+#PARMENU1_ChildSiteP_NSCPrdScdC010_ChildSite2P_NSCPrdScdC012{
+	display: block !important;
+}
+
+/* RNK - Disallow resizing on all textareas */
+textarea {
+	resize: none !important;
+	overflow-y: auto !important;
+}
+
+/* EG adding Columng delimiters to Grid */
+.claro .dojoxGridCell, .claro .dojoxGrid-cell {
+ border-right: 1px solid #BFD6EB !important;
+}
+
+/* RNK - Display dialog messages with new line characters */
+.dijitDialogPaneContent > div {
+	white-space: pre-wrap !important;
+	overflow: auto;
+	max-height: calc(100vh - 100px);
+}
+
+/* RNK - Align labels with edit fields */
+.label {
+	margin-top: 4px !important;
+}
+
+/* RNK - Remove padding and add borders to disabled dates in datepicker */
+.claro .dijitCalendarDisabledDate {
+	padding: 0px !important;
+	border-width: 1px !important;
+}
+
+/* ACL - Start 2020 WebClient upgrade */
+.label{
+	margin-top: 5px;
+}
+
+.tabContainer {
+	background: #e1efff;
+}
+
+.claro .dijitTabPaneWrapper {
+	background: #e1efff;
+}
+
+.childcontainer{
+	background: #e1efff;
+}
+
+.dijitDialogPaneContent {
+	background: #e1efff !important;
+}
+
+#container{
+	background: #e1efff;
+}
+
+body {
+	background: #e1efff !important;
+}
+
+
+.ioBlock{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(50, 115, 220, 0.3);
+	position: absolute;
+	z-index: 10000;
+}
+
+.plexframe {
+	box-sizing: border-box;
+}
+
+.claro .dijitTabInnerDiv {
+	background-color:#d1dfff;
+}
+
+.dijitCalendarIcon {
+	display:none;
+}
+
+.defaultBtn {
+	border-width: 2px !important;
+    border-color: #818fd0 !important; 
+}
+
+.dijitDialogTitleBar {
+	cursor:move;
+}
+
+.dijitDialogCloseIcon {
+	cursor: default;
+}
+/* ACL - End 2020 WebClient upgrade */
+
+/* JLM - FSSU-59 - Highlight the selected nodes in TreeViews */
+.dijitTreeContent.selectedNode {
+	background-color: #D0DEF0;
+}
+.dijitTreeNode.selectedNode {
+	background-color: #D0DEF0;
+}
+/* End FSSU-59 */

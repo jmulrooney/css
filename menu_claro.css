@@ -1,0 +1,88 @@
+/* the checked menu item */
+.claro .dijitCheckedMenuItemIconChar {
+	display: none;
+}
+
+.claro .dijitCheckedMenuItemIcon {
+	background-image: url('../images/checkmark.png');
+	background-position: -112px; /* -16px; */
+}
+
+.dj_ie6 .claro .dijitCheckedMenuItemIcon {
+	background-image: url('../images/checkmark.gif');
+
+}
+
+.claro .dijitCheckedMenuItemIconChecked {
+background-image: url('../images/checkmark.png');
+	background-position: -96px; /* 0px; */
+}
+
+.claro .dijitMenuItemHover .dijitCheckedMenuItemIcon {
+	background-position: -112px; /* -80px; */
+}
+
+.claro .dijitMenuItemHover .dijitCheckedMenuItemIconChecked {
+	background-position: -96px; /* -64px; */
+}
+
+/* Menu */
+.claro .dijitMenu {
+	border: 1px solid #9b9b9b;
+	margin: 0px;
+	padding: 0px;
+}
+
+.claro .dijitMenuItem {
+	background-color: #f7f7f7;
+	font: menu;
+	margin: 0;
+}
+.claro .dijitMenuPreviousButton, .claro .dijitMenuNextButton {
+	font-style: italic;
+}
+.claro .dijitMenuItem TD {
+	padding:2px;
+}
+
+.claro .dijitMenuItemHover {
+	background-color: #d7b675; /* #808080; #95a0b0; #555555; #aaaaaa; #646464;  #60a1ea; #848484; */
+	color:#fff;
+}
+
+.claro .dijitMenuItemIcon {
+	width: 16px;
+	height: 16px;
+	/* padding-right: 3px; */
+}
+
+.claro .dijitMenuExpand {
+	display:none; 
+}
+.claro .dijitMenuExpandEnabled {
+	/* margin-top:4px;  */
+	width:16px; 
+	height:16px; 
+	background:url('images/arrowRight.png') no-repeat center center;
+	display:block;
+}
+.dj_ie6 .claro .dijitMenuExpandEnabled {
+	background-image:url('images/arrowRight.gif'); 
+}
+.claro .dijitMenuExpandInner {
+	display:none;
+}
+
+.claro .dijitMenuSeparator {
+	background-color: #f7f7f7;
+}
+
+/* separator can be two pixels -- set border of either one to 0px to have only one */
+.claro .dijitMenuSeparatorTop {
+	border-bottom: 1px solid #9b9b9b; /*97adcb; */
+}
+
+.claro .dijitMenuSeparatorBottom {
+	border-top: 1px solid #e8e8e8;
+}
+

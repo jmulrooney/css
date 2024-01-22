@@ -1,0 +1,75 @@
+.hatchCell {
+  background: repeating-linear-gradient(
+    45deg,
+    #bbbbbb,
+    #bbbbbb 5px,
+    #999999 5px,
+    #999999  10px
+  ) !important;
+}
+
+.pctCell {
+	background-image: url("../images/Percent.bmp") !important;
+	background-repeat: no-repeat !important;
+	background-position-x: right !important;
+}
+
+.pctCell input {
+	background: transparent !important;
+}
+
+.pctCell span {
+	margin-right: 18px !important;
+}
+
+.wgtCell span {
+	margin-right: 18px !important;
+}
+
+.errorCell {
+	background: red !important;
+}
+
+.errorCell span {
+	background: red !important;
+}
+
+.dojoxGridRowTable,
+.dojoxGrid-row-table {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #cccccc;
+}
+
+.successCell {
+	background: transparent !important;
+	background-image: url("../images/confirm.bmp") !important;
+	background-repeat: no-repeat !important;
+	background-position-x: left !important;
+	margin-left: 18px !important;
+}
+
+.clearCell {
+	background: transparent !important;
+}
+
+
+.Protected {
+	background-color: #c0c0c0;
+}
+/*
+[id$='AGrid1P'].dojoxGrid,
+[id$='AGrid1P'].dojoxGrid .dojoxGrid-view,
+[id$='AGrid1P'].dojoxGrid .dojoxGrid-header{
+	width: 100% !important;
+} 
+*/
+
+/*
+.tabChild,
+.tabChild > .chromescrollbar,
+.tabChild .dojoxGrid,
+.tabChild .dojoxGrid .dojoxGrid-view,
+.tabChild .dojoxGrid .dojoxGrid-header{
+	width: 100% !important;
+} */
